@@ -57,11 +57,10 @@ footer {
     padding: 0.625rem 0; 
 }
 
-/* CSS para dispositivos móviles */
 @media (max-width: 768px) {
     .carousel-inner {
-        max-height: 200px; /* Ajusta la altura máxima según tus necesidades */
-        overflow: hidden; /* Para evitar que el contenido desborde la altura máxima */
+        max-height: 200px; 
+        overflow: hidden; 
     }
 }
 
