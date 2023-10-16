@@ -1,36 +1,33 @@
-/* Estilos generales */
 body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    font-size: 1rem; /* Puedes usar 'rem' para el tamaño de fuente base */
+    font-size: 1rem; 
 }
 
-/* Estilos para el encabezado de navegación */
 .navbar {
     background-color: #1a6cc3;
-    padding: 0.5rem; /* Uso de 'rem' para el relleno */
+    padding: 0.5rem;
 }
 
 .navbar-brand {
     color: white;
     font-weight: bold;
-    font-size: 1.5rem; /* 'rem' para el tamaño de fuente */
+    font-size: 1.5rem; 
 }
 
 .navbar-nav .nav-link {
     color: white;
-    margin: 0 1rem; /* 'rem' para el margen horizontal */
+    margin: 0 1rem; 
 }
 
-/* Estilos para el carrusel */
 .carousel {
-    margin-top: 1rem; /* Uso de 'rem' para el margen superior */
+    margin-top: 1rem; 
 
 }
 
 .carousel-inner {
-    height: 35.25rem; /* 'em' para la altura del carrusel */
+    height: 35.25rem; 
 }
 
 .carousel-item img {
@@ -39,9 +36,8 @@ body {
     object-fit: cover;
 }
 
-/* Estilos para las tarjetas de destinos */
 .card {
-    margin: 1rem 0; /* Uso de 'rem' para el margen vertical */
+    margin: 1rem 0; 
     border: none;
     transition: transform 0.2s;
 }
@@ -52,13 +48,12 @@ body {
 
 .card-title {
     font-weight: bold;
-    margin-top: 1rem; /* Uso de 'rem' para el margen superior */
+    margin-top: 1rem;
 }
 
-/* Estilos para el pie de página */
 footer {
     background-color: #333;
     color: white;
-    padding: 0.625rem 0; /* 'rem' para el relleno vertical */
+    padding: 0.625rem 0; 
 }
 
