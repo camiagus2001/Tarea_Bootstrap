@@ -1,0 +1,64 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    font-size: 1rem; /* Puedes usar 'rem' para el tamaño de fuente base */
+}
+
+/* Estilos para el encabezado de navegación */
+.navbar {
+    background-color: #1a6cc3;
+    padding: 0.5rem; /* Uso de 'rem' para el relleno */
+}
+
+.navbar-brand {
+    color: white;
+    font-weight: bold;
+    font-size: 1.5rem; /* 'rem' para el tamaño de fuente */
+}
+
+.navbar-nav .nav-link {
+    color: white;
+    margin: 0 1rem; /* 'rem' para el margen horizontal */
+}
+
+/* Estilos para el carrusel */
+.carousel {
+    margin-top: 1rem; /* Uso de 'rem' para el margen superior */
+
+}
+
+.carousel-inner {
+    height: 35.25rem; /* 'em' para la altura del carrusel */
+}
+
+.carousel-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* Estilos para las tarjetas de destinos */
+.card {
+    margin: 1rem 0; /* Uso de 'rem' para el margen vertical */
+    border: none;
+    transition: transform 0.2s;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.card-title {
+    font-weight: bold;
+    margin-top: 1rem; /* Uso de 'rem' para el margen superior */
+}
+
+/* Estilos para el pie de página */
+footer {
+    background-color: #333;
+    color: white;
+    padding: 0.625rem 0; /* 'rem' para el relleno vertical */
+}
+
